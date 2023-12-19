@@ -9,5 +9,7 @@ func main() {
 	// remainingCards.print()
 
 	cards := newDeck()
-	cards.saveToFile("my_cards")
+	cards.shuffle()
+	cards.print()
+
 }
